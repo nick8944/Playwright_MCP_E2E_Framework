@@ -1,1 +1,0 @@
-Product details page load time: 5198ms
