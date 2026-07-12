@@ -1,0 +1,104 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for automation practice" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for automation practice" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e39]:
+    - generic [ref=e41]:
+      - heading "Login to your account" [level=2] [ref=e42]
+      - generic [ref=e43]:
+        - textbox "Email Address" [ref=e44]
+        - textbox "Password" [ref=e45]
+        - button "Login" [ref=e46] [cursor=pointer]
+    - heading "OR" [level=2] [ref=e48]
+    - generic [ref=e50]:
+      - heading "New User Signup!" [level=2] [ref=e51]
+      - generic [ref=e52]:
+        - textbox "Name" [ref=e53]
+        - textbox "Email Address" [ref=e54]
+        - button "Signup" [ref=e55] [cursor=pointer]
+  - contentinfo [ref=e56]:
+    - generic [ref=e61]:
+      - heading "Subscription" [level=2] [ref=e62]
+      - generic [ref=e63]:
+        - textbox "Your email address" [ref=e64]
+        - button "" [ref=e65] [cursor=pointer]:
+          - generic [ref=e66]: 
+        - paragraph [ref=e67]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e71]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e73]:
+    - generic [ref=e76]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e78]: Discover more
+      - link "Handbags & Purses" [ref=e79] [cursor=pointer]:
+        - generic "Handbags & Purses" [ref=e80]
+        - img [ref=e82]
+      - link "Intellectual Property" [ref=e84] [cursor=pointer]:
+        - generic "Intellectual Property" [ref=e85]
+        - img [ref=e87]
+      - link "Development Tools" [ref=e89] [cursor=pointer]:
+        - generic "Development Tools" [ref=e90]
+        - img [ref=e92]
+  - insertion [ref=e94]:
+    - iframe [ref=e97]:
+      - iframe [ref=f52e1]:
+        - generic [active]:
+          - generic [ref=f53e1]:
+            - generic [ref=f53e2]:
+              - generic:
+                - img [ref=f53e6] [cursor=pointer]
+                - button [ref=f53e8] [cursor=pointer]:
+                  - img [ref=f53e9]
+            - insertion [ref=f53e16]:
+              - generic [ref=f53e17]:
+                - link "Click Here" [ref=f53e18] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=CtbENxFhTavaAK5ePjeYPkuzfIMfq6fSBAfuI_62RFYr9oITDARABIP20npUBYOWCgIC8DqABi-KKoAHIAQmoAwHIA5sEqgSGAk_Q2xEJAo8Xyl-zyaCVv-1ls7GuGkU50ceg7U-atuOf1ACS-OevdLcCSBFSaOhoelLWs2Z1ax1ggcveIZT3-0dES1kuv__BrMfMFRw1wyo8JV7zU-ZGI2SReAnKm0GfKjiC4Tn_2XeOZdga13x1rinUstBCFyRvOgZwyFHRlFoN-2zoiyYtDl7huw7RLP7KPLfjCwvSrkk666liiuvcqGyf9ptsuBKMioCtUY5CHFzxrmmoP0th0atN8EPN80fphA_RJCKHLGa3ibrSYTUbNeUezdH3MJxY12s6wsSWsNo6koN4pFxO6axbc3QDdNkZUTH2enbg4jxSRZKqk9ncLHTBGHfS2wzABLnl-rTpBOAEA4gFob_NvU-QBgGgBk2AB92d9d8CqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOljtsfup5MyVA2ABgAoBmAsByAsBgAwBqg0CSU7qDRMI4vj9qeTMlQMVl0fDBh0S9hcE8A0BiA4JsBP04JEj2BMNiBQC2BQB0BUByhYCCgD4FgGAFwGyFwQYAlAGshgJEgKxXxhNIgEA0BkB2BkB&ae=1&num=1&cid=CAQSjAIAEQoqgc9fTgh_YgOM1qxy8_BxMAxNyil6vEeF5rjVHXPkjJHLgt41fLsCW1evuSyxLDIkNIVAjPq9Pb4rGYzId6WDQ5asCRNS9P8cCcMV_zmOZMY2CYZ-1VYz2bML0XU31Bh1DAVZUL7q5hUGTzBwtcHFyI3IuSXl8_8fe8XMuTtTdeARjGEM2SyCd-JUq8WBL2lqlU9TpSMSonVLrcCiZOJ48uYh5E0llqDt-yB9o6z3Fn7xBVPZ7ls7o3hiSPRuUCeGyDqubg--yA9bqAG4mD12SNaFZo0wcMbKPCs9_9GyI3GL0UEfITVlmo0ShmixGVAhAfuVGAXO4GO1pPz5hvspNXG9PNEiuFwbGAE&sig=AOD64_2DHHMLRyUNA5BFRquuzemctrXaxQ&client=ca-pub-1677597403311019&dbm_c=AKAmf-BlR3RewDwpbtznCFVDtm9N7hfOMqaXJDCBVPRI98VdgzBALMNYjZDVNm3X40ekYKNIInZ0cexzKHD4PPRTEac1QMXDABTRPG-BDMIge8ahMih2ACqXY0jGS_PXw1LKFEa0po-KSChKGaWttLGKSIWoPaYXRm8gTufCsMJjUpf3LNPW0B7v1FdWnazOJ7d8rZkJr08stsCg0DZf5MObYfVf4W8LoefdwqoXkprFTyTRv29YpYqjvOjyoEJmxFnxt1XP4vfNbh7jzK_G1vWwVtpWWgAWd4QZKxnv8WwoTDvh3QjTkyQ&cry=1&dbm_d=AKAmf-B7R9_hv0Ip7VimK_FTichUN6ahZU5c_sw2iY07sSxVJLzRAk9e0av7ENsYC9T8lnmgoRM1ERmioqZooYG2UFBcc67rPK19YLEvAmExd-dBJk27tdSzrlF_csBzBlnov7AtDCeIayHceoe6OzUlXBLdzbaIgLwYtgs4r6yoX6a6kWGniVulHYmyT5UWtSj-APRlOfnoT88Gmr1e6HJGFvLMly-PpQurYolXSWlflGnBdTen_4rXkZ85l2VzoapQuTqggGaE3Tusqqbt2oV_tMVWazdfjdKZ4FwAsfT2yIX5homvXd7mr3ctyP8y-G3aCPk_xDXpmAzgkKEXx_RggcJrhnZuRK0x9ZcL88qwB0ZeAB3KpGSV5od516ca2_JLzmarQbkYmP7P2JrSGxBOz-I_Vdlf1hch_PlnNd11nfCcasI4cXWfMCIuq-8cEx_V6q52snNms_bKYB7No3-cBYdwK045WYsHFJAlSb2QUTbUcpiGSI0pSNs8gLL-UOl1fhtWtROM84a36wly7x_RgSVwNIn8qj3XvGm6Jr3J0qHYA5YfbsG-Zy6qLPvokgguii76kYLL84jBIhB0nR5z2a0WmZ8x93h_7HFpSWHSGS_9BPru6QyoNLe2ShRvNfg6fVgfVTuq1Z2-3RPrzN7L5KNtyfiMCRzdDWtLA3l2PIgdJJ8uMPjz0ThyyKnXoLCHahBcnnY7qwSWg9_4oSAF4Jk9FbuGG3ct5yK0ID-MBnbP2ObBwjg&adurl=https://servedby.flashtalking.com/click/7/296698;10208169;6262990;210;0/?us_privacy=!!US_PRIVACY!&ft_partnerimpid=ABAjH0jJpVSCneAVU4eTm33m3LB4&ft_impID=BBA5470D-51A5-EDFC-5F8A-BD58A05D7514&ft_section=21335596961&g=6767446327AB71&random=653278.9821366628&ft_width=728&ft_height=90&url=https://www.adobe.com/in/acrobat/free-trial-download.html?sdid=X6FJHM6D&mv=display&mv2=display
+                  - img "Click Here" [ref=f53e19]
+                - link "AdChoices arrow" [ref=f53e21] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img "AdChoices arrow" [ref=f53e22]
+          - iframe

@@ -1,0 +1,194 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - generic [ref=e5]:
+      - link "Website for practice automation" [ref=e8] [cursor=pointer]:
+        - /url: /
+        - img "Website for practice automation" [ref=e9]
+      - list [ref=e12]:
+        - listitem [ref=e13]:
+          - link " Home" [ref=e14] [cursor=pointer]:
+            - /url: /
+            - generic [ref=e15]: 
+            - text: Home
+        - listitem [ref=e16]:
+          - link " Products" [ref=e17] [cursor=pointer]:
+            - /url: /products
+            - generic [ref=e18]: 
+            - text: Products
+        - listitem [ref=e19]:
+          - link " Cart" [ref=e20] [cursor=pointer]:
+            - /url: /view_cart
+            - generic [ref=e21]: 
+            - text: Cart
+        - listitem [ref=e22]:
+          - link " Signup / Login" [ref=e23] [cursor=pointer]:
+            - /url: /login
+            - generic [ref=e24]: 
+            - text: Signup / Login
+        - listitem [ref=e25]:
+          - link " Test Cases" [ref=e26] [cursor=pointer]:
+            - /url: /test_cases
+            - generic [ref=e27]: 
+            - text: Test Cases
+        - listitem [ref=e28]:
+          - link " API Testing" [ref=e29] [cursor=pointer]:
+            - /url: /api_list
+            - generic [ref=e30]: 
+            - text: API Testing
+        - listitem [ref=e31]:
+          - link " Video Tutorials" [ref=e32] [cursor=pointer]:
+            - /url: https://www.youtube.com/c/AutomationExercise
+            - generic [ref=e33]: 
+            - text: Video Tutorials
+        - listitem [ref=e34]:
+          - link " Contact us" [ref=e35] [cursor=pointer]:
+            - /url: /contact_us
+            - generic [ref=e36]: 
+            - text: Contact us
+  - generic [ref=e38]:
+    - heading "Test Cases" [level=2] [ref=e41]
+    - generic [ref=e42]:
+      - heading "Below is the list of test Cases for you to practice the Automation. Click on the scenario for detailed Test Steps:" [level=5] [ref=e43]
+      - 'heading "Test Case 1: Register User" [level=4] [ref=e46]':
+        - 'link "Test Case 1: Register User" [ref=e47] [cursor=pointer]':
+          - /url: "#collapse1"
+    - 'heading "Test Case 2: Login User with correct email and password" [level=4] [ref=e51]':
+      - 'link "Test Case 2: Login User with correct email and password" [ref=e52] [cursor=pointer]':
+        - /url: "#collapse2"
+    - 'heading "Test Case 3: Login User with incorrect email and password" [level=4] [ref=e56]':
+      - 'link "Test Case 3: Login User with incorrect email and password" [ref=e57] [cursor=pointer]':
+        - /url: "#collapse3"
+    - 'heading "Test Case 4: Logout User" [level=4] [ref=e61]':
+      - 'link "Test Case 4: Logout User" [ref=e62] [cursor=pointer]':
+        - /url: "#collapse4"
+    - 'heading "Test Case 5: Register User with existing email" [level=4] [ref=e66]':
+      - 'link "Test Case 5: Register User with existing email" [ref=e67] [cursor=pointer]':
+        - /url: "#collapse5"
+    - 'heading "Test Case 6: Contact Us Form" [level=4] [ref=e71]':
+      - 'link "Test Case 6: Contact Us Form" [ref=e72] [cursor=pointer]':
+        - /url: "#collapse6"
+    - 'heading "Test Case 7: Verify Test Cases Page" [level=4] [ref=e76]':
+      - 'link "Test Case 7: Verify Test Cases Page" [ref=e77] [cursor=pointer]':
+        - /url: "#collapse7"
+    - 'heading "Test Case 8: Verify All Products and product detail page" [level=4] [ref=e81]':
+      - 'link "Test Case 8: Verify All Products and product detail page" [ref=e82] [cursor=pointer]':
+        - /url: "#collapse8"
+    - 'heading "Test Case 9: Search Product" [level=4] [ref=e86]':
+      - 'link "Test Case 9: Search Product" [ref=e87] [cursor=pointer]':
+        - /url: "#collapse9"
+    - 'heading "Test Case 10: Verify Subscription in home page" [level=4] [ref=e91]':
+      - 'link "Test Case 10: Verify Subscription in home page" [ref=e92] [cursor=pointer]':
+        - /url: "#collapse10"
+    - 'heading "Test Case 11: Verify Subscription in Cart page" [level=4] [ref=e96]':
+      - 'link "Test Case 11: Verify Subscription in Cart page" [ref=e97] [cursor=pointer]':
+        - /url: "#collapse11"
+    - 'heading "Test Case 12: Add Products in Cart" [level=4] [ref=e101]':
+      - 'link "Test Case 12: Add Products in Cart" [ref=e102] [cursor=pointer]':
+        - /url: "#collapse12"
+    - 'heading "Test Case 13: Verify Product quantity in Cart" [level=4] [ref=e106]':
+      - 'link "Test Case 13: Verify Product quantity in Cart" [ref=e107] [cursor=pointer]':
+        - /url: "#collapse13"
+    - 'heading "Test Case 14: Place Order: Register while Checkout" [level=4] [ref=e111]':
+      - 'link "Test Case 14: Place Order: Register while Checkout" [ref=e112] [cursor=pointer]':
+        - /url: "#collapse14"
+    - 'heading "Test Case 15: Place Order: Register before Checkout" [level=4] [ref=e116]':
+      - 'link "Test Case 15: Place Order: Register before Checkout" [ref=e117] [cursor=pointer]':
+        - /url: "#collapse15"
+    - 'heading "Test Case 16: Place Order: Login before Checkout" [level=4] [ref=e121]':
+      - 'link "Test Case 16: Place Order: Login before Checkout" [ref=e122] [cursor=pointer]':
+        - /url: "#collapse16"
+    - 'heading "Test Case 17: Remove Products From Cart" [level=4] [ref=e126]':
+      - 'link "Test Case 17: Remove Products From Cart" [ref=e127] [cursor=pointer]':
+        - /url: "#collapse17"
+    - 'heading "Test Case 18: View Category Products" [level=4] [ref=e131]':
+      - 'link "Test Case 18: View Category Products" [ref=e132] [cursor=pointer]':
+        - /url: "#collapse18"
+    - 'heading "Test Case 19: View & Cart Brand Products" [level=4] [ref=e136]':
+      - 'link "Test Case 19: View & Cart Brand Products" [ref=e137] [cursor=pointer]':
+        - /url: "#collapse19"
+    - 'heading "Test Case 20: Search Products and Verify Cart After Login" [level=4] [ref=e141]':
+      - 'link "Test Case 20: Search Products and Verify Cart After Login" [ref=e142] [cursor=pointer]':
+        - /url: "#collapse20"
+    - 'heading "Test Case 21: Add review on product" [level=4] [ref=e146]':
+      - 'link "Test Case 21: Add review on product" [ref=e147] [cursor=pointer]':
+        - /url: "#collapse21"
+    - 'heading "Test Case 22: Add to cart from Recommended items" [level=4] [ref=e151]':
+      - 'link "Test Case 22: Add to cart from Recommended items" [ref=e152] [cursor=pointer]':
+        - /url: "#collapse22"
+    - 'heading "Test Case 23: Verify address details in checkout page" [level=4] [ref=e156]':
+      - 'link "Test Case 23: Verify address details in checkout page" [ref=e157] [cursor=pointer]':
+        - /url: "#collapse23"
+    - 'heading "Test Case 24: Download Invoice after purchase order" [level=4] [ref=e161]':
+      - 'link "Test Case 24: Download Invoice after purchase order" [ref=e162] [cursor=pointer]':
+        - /url: "#collapse24"
+    - 'heading "Test Case 25: Verify Scroll Up using ''Arrow'' button and Scroll Down functionality" [level=4] [ref=e166]':
+      - 'link "Test Case 25: Verify Scroll Up using ''Arrow'' button and Scroll Down functionality" [ref=e167] [cursor=pointer]':
+        - /url: "#collapse25"
+    - 'heading "Test Case 26: Verify Scroll Up without ''Arrow'' button and Scroll Down functionality" [level=4] [ref=e171]':
+      - 'link "Test Case 26: Verify Scroll Up without ''Arrow'' button and Scroll Down functionality" [ref=e172] [cursor=pointer]':
+        - /url: "#collapse26"
+    - generic [ref=e174]:
+      - heading "Feedback for Us" [level=4] [ref=e176]:
+        - link "Feedback for Us" [ref=e177] [cursor=pointer]:
+          - /url: "#feedback"
+      - list [ref=e179]:
+        - listitem [ref=e180]:
+          - text: We have identified above scenarios and added in the list.
+          - link "Login user test" [ref=e181] [cursor=pointer]:
+            - img [ref=e183]
+            - text: Login user test
+        - listitem [ref=e185]: You can explore more test cases in the website and if you find new test scenario that is not covered in above list, do let us know. We will definitely add that in above list.
+        - listitem [ref=e186]:
+          - text: If you think, this website should cover up any particular feature, kindly share with us at
+          - link "feedback@automationexercise.com" [ref=e187] [cursor=pointer]:
+            - /url: mailto:feedback@automationexercise.com
+          - text: . We will work on that part. Your feedback matters a lot.
+  - insertion [ref=e189]:
+    - generic [ref=e192]:
+      - heading "These are topics related to the article that might interest you" [level=2] [ref=e194]: Discover more
+      - link "Manual testing guide" [ref=e195] [cursor=pointer]:
+        - generic "Manual testing guide" [ref=e196]
+        - img [ref=e198]
+      - link "Test case examples" [ref=e200] [cursor=pointer]:
+        - generic "Test case examples" [ref=e201]
+        - img [ref=e203]
+      - link "Test case templates" [ref=e205] [cursor=pointer]:
+        - generic "Test case templates" [ref=e206]
+        - img [ref=e208]
+  - contentinfo [ref=e210]:
+    - generic [ref=e215]:
+      - heading "Subscription" [level=2] [ref=e216]
+      - generic [ref=e217]:
+        - textbox "Your email address" [ref=e218]
+        - button "" [ref=e219] [cursor=pointer]:
+          - generic [ref=e220]: 
+        - paragraph [ref=e221]:
+          - text: Get the most recent updates from
+          - text: our site and be updated your self...
+    - paragraph [ref=e225]: Copyright © 2021 All rights reserved
+  - text: 
+  - insertion [ref=e226]:
+    - iframe [ref=e229]:
+      - iframe [ref=f123e1]:
+        - generic [active]:
+          - generic [ref=f125e1]:
+            - generic [ref=f125e2]:
+              - generic:
+                - img [ref=f125e6] [cursor=pointer]
+                - button [ref=f125e8] [cursor=pointer]:
+                  - img [ref=f125e9]
+            - insertion [ref=f125e16]:
+              - generic [ref=f125e17]:
+                - link "Click Here" [ref=f125e18] [cursor=pointer]:
+                  - /url: https://googleads.g.doubleclick.net/dbm/clk?sa=L&ai=Ccbmn3VhTaoL7Aua3msMPxeOs8Qqd-en0gQGSib-KtRWI5NfnokYQASD9tJ6VAWDlgoCAvA6gAYviiqAByAEJqAMByAObBKoEhQJP0N-tpmktMrRe5Cie4WfdJsplco1vbbV5aHlY0pqQmZYXz1M1-00eZC4Fcc4dCEGY0Pt6tms3UvaZldjEFtquQ7khLsaKhM0UB3tHcH30FlsH_d6V2fQ58hyb132_pBglEgcBp6RRA8tr0E7BjDQPAGoll36CtYNOnf3IVC-P0EZcgyT71Gpqsso3Lxd8YK7_VOQHN_94ICzklcx18TFurPBxhfqPVLO_FInLnyC3x2bubKt8Gl5sPnOv-uilienCaOU69ELFUYZAFlWyjdyZvjpwr5QNM36CWFAaK8gkV0mTnJL24Iz5g47J5qegNN0V6ifG3ad1fYRQxZxUvCzDvdt1d2LABKGtjOTcBOAEA4gF8qrNvU-QBgGgBk2AB92d9d8CqAenzLECqAemvhuoB8zOsQKoB_PRG6gHltgbqAeqm7ECqAeOzhuoB5PYG6gH8OAbqAfulrECqAf-nrECqAevvrECqAfVyRuoB9m2sQKoB5oGqAf_nrECqAffn7ECqAf4wrECqAf7wrECqAfn17EC2AcA0ggzCIBhEAEYnwMyCIqCgICAgIAIOg-AQIDAgICAgKiAAqiDgBBIvf3BOlils8u15MyVA2ABgAoBmAsByAsBgAwBqg0CSU7qDRMIsuTLteTMlQMV5ptmAh3FMSuu8A0BiA4JsBP04JEj2BMNiBQC2BQB0BUByhYCCgD4FgGAFwGyFwQYAlAGshgJEgKxXxhNIgEA0BkB2BkB&ae=1&num=1&cid=CAQSjAIAEQoqgcezsYIQj0SubWAM4k_tDJEHEbVFA-1yQv8mj-wV5xgsSZeMdlN4Zk7AbBOIdkVrOZS5B94UeAMnkRtE0owUrRg8jHy0-dXbdsMbVpYDo4auEkn0s7C8QSodxv0wNBunDjqmi-JqF87yMfcxkPWKJYicbNdPHJDDU2qqZxL6tIcgi6D8DOde_B6mQJT0NJY2eKuqmFN-OR_Pow80VXBHCbTnLmCsdjZdmuzwM5j_xUQ053UHclZc3CL0sL5EyrCjgbF7bCrBYbgej8O90Tf5ExcyJOaEr9zwwUbX0Ahci-mTiANzOrOa1wNMj7rQnIh_69XP5F-V9wEt3HPL-x2-Q-O4_1BiJqGnGAE&sig=AOD64_1PaqOQuspUWgk08hyqy0DPy5nTjA&client=ca-pub-1677597403311019&dbm_c=AKAmf-CPEtoMu87oqnBAbxp0ch185xyUZu8ok0eASjJcqOZ9zKpJcsBXSC8XnrNnpmXuw13MHuQX6V90OBQfzG_HlogCqFwzCPO_5OGyR-3dsnJjVe4V42y8fv0qLMZ5142WqDCgXOEpNOUOj75e9wtkcmsKW8JzHtEJRKjeI2ABMytYsz-3Pf-GZvtbcrYGQ6FPCEeA2L2Qh9-UGPV6OIne8iwM8Ll2835g67Tlf2Yx54Y1J3ej4KRZR0FLa7VuTfAsD5pj5hASE97WJhl3zrQI06dYpGza90uB13d4zkLy7A4LuHmwCkTQUUvJbFso20hEPP6LXSFd&cry=1&dbm_d=AKAmf-D4YcNvSolDckWoxkuDXqWxpPUS07QIsvleoopnfR27veu7yrxn0ZrortpY7GX7xPBz0_0svUcx9D_IUNcgRLCuOizdNImRq8Y5xt2HUgpGoK6rmNzPAhv44WGDbw1h0jnHvtg30sl2NZRM_e4xiIqdmlRgCGtliUuZIVkAbFTMDk5SPkpfKrneb6Om77RJFZnH6Xwgf0OnMFb_ZI954G4ehXqXkb4th4cmJi6bEVwaQCFguD0HQUvQhvtW1MYImX226TYFJJhhpocVkCbV0U-wNYxrjdTeVTXUZGCIuIfkclPuaILoHnBJaTot88lv25dmz4VeuZonEuHbROdzb_FHje4JznlQD2GYx-UdKSaQxWrkpzqJP9fOMnfifXQls77ZuSUtJjK9G393WU-4jviiZTEYP9VhNucddBMlcZbZw-NtiVycFW3lzHowE7URTda4jHKOkqimByEGFqklJsd-ezuMbrHlpbRmDy7Mkc9zwJqtniPPvr_c-Ph3cLJB3_BoNO8pnDt58522rlCKWaJKCQGgtjrX4D3SKsugjnkmXFY_6yMXYf83wv43Gf9So2Y1QOWD4zopR-MpwMEWuwBFEn3T5SLozcSk-LaRyQZN8xYPbQoK6XNO0LqJyCXbMxyQkQG1_cdeYiITWGh0DrUA070x7GHvjEtg-bY_c2veYmt0pFdwg7vK57OtBj_o6QmaKDAk8_e906b6yvzARdfOp1jd6jXAfWmRn7aftrv1VYJfPoY&adurl=https://servedby.flashtalking.com/click/7/296698;10207689;5791913;210;0/?us_privacy=!!US_PRIVACY!&ft_partnerimpid=ABAjH0g1u76zux0Pjb4dUlXgvfGV&ft_impID=9E4D1718-22A6-F0E9-BC2B-B9BEF86EB398&ft_section=21335594354&g=6767446327AB71&random=214226.04971726934&ft_width=728&ft_height=90&url=https://www.adobe.com/in/acrobat/free-trial-download.html?sdid=X6FJHM6D&mv=display&mv2=display
+                  - img "Click Here" [ref=f125e19]
+                - link "AdChoices arrow" [ref=f125e21] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img "AdChoices arrow" [ref=f125e22]
+                - link "Privacy Notification" [ref=f125e24] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img [ref=f125e25]
+                - link "Privacy Notification" [ref=f125e27] [cursor=pointer]:
+                  - /url: https://www.flashtalking.com/consumer-privacy
+                  - img [ref=f125e28]
+          - iframe
