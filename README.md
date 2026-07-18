@@ -1,4 +1,4 @@
-<img width="620" height="172" alt="image" src="https://github.com/user-attachments/assets/1cdf9b93-e1d7-408b-946c-953814c2dd04" />﻿# 🎭 Playwright MCP E2E Testing Framework
+﻿# 🎭 Playwright MCP E2E Testing Framework
 
 <div align="center">
 
