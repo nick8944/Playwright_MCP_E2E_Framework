@@ -203,7 +203,7 @@ All evidence is stored in:
 - `test-results/` — Individual test folders with screenshots and videos
 - `playwright-report/data/` — Consolidated report data with screenshots and videos
 - `allure-results/` — Allure-compatible results with embedded attachments
-<img width="620" height="172" alt="image" src="https://github.com/user-attachments/assets/fa7356d6-5221-40dd-a1af-88179cfd0992" />
+
 <img width="975" height="518" alt="image" src="https://github.com/user-attachments/assets/c8d1f3d3-3eee-40ff-b718-342db6031f7c" />
 <img width="975" height="475" alt="image" src="https://github.com/user-attachments/assets/12a48c13-2504-4d4c-a2c7-29ea159f8423" />
 <img width="975" height="452" alt="image" src="https://github.com/user-attachments/assets/5013a11d-cd6a-42be-aa3d-57dd2e828c32" />
